@@ -26,7 +26,7 @@ router.get('/show-pets', function(req,res){
 router.get('/', function(req, res) {
   
   var jsonData = {
-  	'name': 'node-express-api-boilerplate',
+  	'name': 'mean-api',
   	'api-status':'OK'
   }
 
