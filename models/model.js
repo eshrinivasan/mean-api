@@ -18,4 +18,8 @@ var animalSchema = new Schema({
 })
 
 // export 'Animal' model so we can interact with it in other files
-module.exports = mongoose.model('Animal',animalSchema);
+var Animal = mongoose.model('Animal',animalSchema);
+
+module.exports = {
+	Animal:Animal
+}
